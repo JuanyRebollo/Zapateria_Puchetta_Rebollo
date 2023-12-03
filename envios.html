@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Yantramanav:wght@100;300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>FCEFN - Envíos</title>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="iconos/nav/fcefn.jpg" alt="" id="empresa"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link elem-nav" aria-current="page" href="hombres.html">Hombre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link elem-nav" href="mujeres.html">Mujer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link elem-nav" href="nike.html">Nike</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button type="submit" id="icono_busqueda">
+          <img src="iconos/nav/busqueda.png" class="elem-nav" alt="icono de busqueda" id="busqueda"/>
+        </button>
+        <button type="submit" id="icono_bolsa">
+          <img src="iconos/nav/bolsa.png" class="elem-nav" alt="icono de bolsa" id="bolsa"/>
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--  -->
+
+<div class="container" id="envio">
+    <div>
+        <h3>Opciones de Envío</h3>
+    </div>
+    <div class="pt-3">
+        <h3>Envío Stándar</h3>
+        <p>Disfruta de nuestro servicio de envío estándar, que garantiza la entrega de tus productos en un plazo de 4 a 8 días hábiles.<br> Esta opción es perfecta para aquellos que buscan la combinación ideal entre eficiencia y asequibilidad.</p>
+    </div>
+    <div class="pt-3">
+        <h3>Envío Rápido</h3>
+        <p>Si necesitas tus zapatos en tiempo récord, opta por nuestro servicio de envío rápido. Recibirás tus productos en un plazo de<br> 2 días hábiles. Ideal para ocasiones en las que la prontitud es esencial.</p>
+    </div>
+    <div class="pt-3">
+        <h3>Seguimiento en Tiempo Real</h3>
+        <p>Mantente informado sobre el estado de tu pedido con nuestra función de seguimiento en tiempo real. Desde el momento<br> en que procesamos tu compra hasta que llega a tu puerta, podrás conocer cada paso del viaje de tus nuevos zapatos</p>
+    </div>
+    <div class="pt-3">
+        <h3>Política de Envíos Gratuitos</h3>
+        <p>Ofrecemos envío gratuito en todas las compras que superen los $50000. ¡Es nuestra forma de agradecerte por elegir <i>FCEFN</i>!</p>
+    </div>
+    <div class="pt-3">
+        <h3>Proceso de Devoluciones</h3>
+        <p>Tu satisfacción es nuestra prioridad. Si por alguna razón necesitas devolver o cambiar un producto, consulta nuestra política<br> de devoluciones para obtener más información sobre el proceso.</p>
+    </div>
+</div>
+
+<!-- Formularios -->
+
+<div class="container py-5">
+    <p><i>En situaciones donde puedas experimentar extravíos, tener sugerencias valiosas para compartir o si notas alguna demora<br> inesperada en la entrega de tus pedidos, queremos escucharte. Tu opinión es fundamental para nosotros. Por ello, te<br> invitamos a dejar tus comentarios y observaciones, ya que nos ayudan a mejorar continuamente nuestros servicios. Nos<br> preocupamos por brindarte la mejor experiencia posible, y tu participación es clave para asegurar que cumplamos con tus<br> expectativas. Apreciamos tu tiempo y confianza, y estamos aquí para garantizar que tu experiencia de compra sea <br>excepcional.</i></p>
+    <div class="mb-3 cosito">
+        <label for="exampleFormControlInput1" class="form-label">Coloque su gmail</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="juanperez@gmail.com">
+      </div>
+      <div class="mb-3 cosito">
+        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <button type="button" class="col" id="enviar">Enviar</button>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+  <div class="container">
+    <div class="pt-1 pb-3 titulo">
+      <h2><b>Comprá en fcefn.com</b></h2>
+    </div>
+      <div class="row">
+          <div class="col-xl-3 align-items-center">
+          </div>
+          <div class="col-xl-3 align-items-center">
+            <div>
+                <ul>
+                  <a  class="info items" href=""><img src="iconos/footer/factura.png" class="items">Pagos</a><br>
+                  <a  class="info items" href="envios.html"><img src="iconos/footer/scooter.png" class="items">Envíos</a><br>
+                  <a  class="info items" href=""><img src="iconos/footer/factura.png" class="items">Garantías</a>
+                </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 align-items-center">
+            <a href="https://www.facebook.com/"><img src="iconos/redes/facebook.png" alt="" class="icfooter me-2"></a>
+            <a href="https://www.instagram.com/"><img src="iconos/redes/instagram.png" alt="" class="icfooter me-2"></a>
+            <a href="https://www.whatsapp.com/"><img src="iconos/redes/whatsapp.png" alt="" class="icfooter me-2"></a>
+          </div>
+          <div class="col-xl-3">   
+          </div>
+      </div>                                
+  </div>          
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

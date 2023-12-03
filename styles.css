@@ -1,0 +1,381 @@
+*{
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/* Barra de Navegacion */
+nav{
+    background-color: #F0F0F0;
+}
+
+#empresa{
+    width: 70px;
+    height: 35px;
+}
+
+.nav-link:hover{
+    filter: invert(6%) sepia(72%) saturate(4882%) hue-rotate(351deg) brightness(119%) contrast(134%);
+}
+
+#busqueda{
+    width: 40px;
+    height: 35px;
+}
+
+#busqueda:hover{
+    filter: invert(6%) sepia(72%) saturate(4882%) hue-rotate(351deg) brightness(119%) contrast(134%);
+}
+
+#bolsa{
+    width: 40px;
+    height: 35px;
+}
+
+#icono_busqueda{
+    border: none;
+}
+
+#icono_bolsa{
+    border: none;
+}
+
+#bolsa:hover{
+    filter: invert(6%) sepia(72%) saturate(4882%) hue-rotate(351deg) brightness(119%) contrast(134%);
+}
+
+/* --------------------------------------------------------------- */
+
+/* Carusel */
+.slider{
+    max-height: 585px;
+}
+/* --------------------------------------------------------------- */
+
+/* Tarjetas */
+h2{
+    text-align: center;
+}
+
+#foto1{
+    height: 400px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(secciones/hombre.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#foto1:hover::after{
+    transform: translateY(0);
+}
+
+#foto1::after{
+    content: "Hombres";
+    font-size: 2rem;
+    color: #F0F0F0;
+    background-color: #36373898;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+
+#foto2{
+    height: 400px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(secciones/mujer.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#foto2:hover::after{
+    transform: translateY(0);
+}
+
+#foto2::after{
+    content: "Mujeres";
+    font-size: 2rem;
+    color: #F0F0F0;
+    background-color: #36373898;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+
+#foto3{
+    height: 400px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(secciones/Nike.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#foto3:hover::after{
+    transform: translateY(0);
+}
+
+#foto3::after{
+    content: "Niños";
+    font-size: 2rem;
+    color: #F0F0F0;
+    background-color: #36373898;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform .3s;
+    border-radius: 5px;
+}
+/* ---------------------------------------------------------- */
+
+/* Marcas */
+#adidas{
+    margin-left: 120px;
+    width: 115px;
+    height: 85px;
+}
+
+#adidas:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(86%) sepia(7%) saturate(2376%) hue-rotate(177deg) brightness(92%) contrast(80%);
+}
+
+#puma{
+    margin-left: 100px;
+    width: 150px;
+    height: 85px;
+}
+
+#puma:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(86%) sepia(7%) saturate(2376%) hue-rotate(177deg) brightness(92%) contrast(80%);
+}
+
+#nike{
+    margin-left: 100px;
+    width: 120px;
+    height: 85px;
+}
+
+#nike:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(86%) sepia(7%) saturate(2376%) hue-rotate(177deg) brightness(92%) contrast(80%);
+}
+
+#converse{
+    margin-left: 50px;
+    width: 250px;
+    height: 60px;
+}
+
+#converse:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(86%) sepia(7%) saturate(2376%) hue-rotate(177deg) brightness(92%) contrast(80%);
+}
+
+#dc{
+    margin-left: 110px;
+    width: 90px;
+    height: 60px;
+}
+
+#dc:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(86%) sepia(7%) saturate(2376%) hue-rotate(177deg) brightness(92%) contrast(80%);
+}
+
+#vans{
+    margin-left: 90px;
+    width: 150px;
+    height: 60px;
+}
+
+#vans:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(86%) sepia(7%) saturate(2376%) hue-rotate(177deg) brightness(92%) contrast(80%);
+}
+
+/* ----------------------------------------------------------------- */
+
+/* Footer */
+footer{
+    background-color: #F0F0F0;
+}
+
+.info{
+    color: #757575;
+}
+
+.info:hover{
+    filter: invert(7%) sepia(69%) saturate(6843%) hue-rotate(349deg) brightness(96%) contrast(107%);
+}
+
+.contactos{
+    text-align: center;
+    color: #F0F0F0;
+}
+
+.icfooter{
+    width: 35px;
+    height: 35px;
+}
+
+.icfooter:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(7%) sepia(69%) saturate(6843%) hue-rotate(349deg) brightness(96%) contrast(107%);
+}
+
+#numero{
+    color: #F0F0F0;
+}
+
+.items{
+    width: 35px;
+    height: 35px;
+}
+
+.items:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    filter: invert(7%) sepia(69%) saturate(6843%) hue-rotate(349deg) brightness(96%) contrast(107%);
+}
+
+@media (max-width: 575.98px) {
+    .icfooter{
+        margin-left: 90px;
+    }
+    .items{
+        margin-left: 75px;
+    }
+    #carrusel{
+        display: none;
+    }
+    .nav-item{
+        padding-left: 50px;
+    }
+    .nav-link:hover{
+        transform: none;
+        transition: transform .3s;
+        filter: invert(7%) sepia(69%) saturate(6843%) hue-rotate(349deg) brightness(96%) contrast(107%);
+    }
+  }
+/* ----------------------------------------------------------------- */
+
+
+/* Nike */
+#titulo-nike{
+    text-align: center;
+    font-size: 40px;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#seccion1{
+    background-image: url('nike/coleccion.jpg');
+}
+
+#seccion2{
+    background-image: url('nike/deportivas.jpg');
+}
+
+#seccion3{
+    background-image: url('nike/limitadas.jpg');
+}
+
+#coleccion-ti{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+/* Envíos */
+
+.cosito{
+    width: 50%;
+}
+
+#enviar{
+    border-radius: 5px;
+    color: #F0F0F0;
+    background-color: #757575;
+    border-color: #F0F0F0;
+}
+
+#enviar:hover{
+    transform: scale(1.1);
+    color: #757575;
+    background-color: #9CBDD6;
+}
+
+#tarjeta1{
+    width: 300px;
+    transition: .3s;
+    
+}
+#botonmodal{
+    background-color: #9CBDD6;
+}
+#cierremodal{
+    background-color: #780002;
+    color: #F0F0F0;
+}
+
+#tarjeta1:hover{
+    width: 330px;
+    
+   
+    
+}
+
+.texto{
+    text-align: center;
+    color: #050505;
+    font-size: 20px;
+}
+
+.talles{
+    text-align: center;
+    color: #757575;
+    font-size: 14px;
+}
+
+.filtros{
+    color: #050505;
+}
